@@ -13,13 +13,13 @@ Proyecto práctico de infraestructura y operaciones cloud implementado en AWS.
 - [Tecnologías](#tecnologías)
 - [Aprendizajes](#aprendizajes)
 
-## 🎯 Objetivo
+##Objetivo
 
 Diseñar e implementar una infraestructura básica en AWS aplicando conceptos de redes, seguridad, servidores y bases de datos.
 
 El proyecto implementa una arquitectura segmentada mediante una VPC con una subred pública para el servidor web y una subred privada para la base de datos.
 
-## 🏗️ Arquitectura
+##Arquitectura
 
 La infraestructura está compuesta por:
 
@@ -47,9 +47,8 @@ La instancia Web se encuentra en la subred pública y posee una IP pública para
 La instancia de Base de Datos se encuentra en la subred privada y no posee IP pública.
 
 La comunicación entre ambas instancias se realiza mediante la red privada de la VPC.
-![EC2 Servidor Web](02-ec2-web.jpg)
-![EC2 Servidor Web](04-ec2-privada.jpg)
-## 🔐 Seguridad
+
+##Seguridad
 
 Se utilizaron Security Groups como firewall virtual.
 
@@ -61,7 +60,7 @@ Se utilizaron Security Groups como firewall virtual.
 
 La base de datos no se expone directamente a Internet. El acceso al puerto 3306 está restringido al Security Group del servidor Web.
 
-## 🌐 Servidor Web
+##Servidor Web
 
 Se implementó un servidor Web mediante **Nginx** sobre Ubuntu Server.
 
@@ -74,7 +73,7 @@ curl http://localhost
 ![Nginx funcionando](06-nginx-status.jpg)
 También se verificó el acceso externo mediante HTTP utilizando la IP pública de la instancia.
 ![Prueba HTTP](img/03-web-nginx.jpg)
-## 🗄️ Base de Datos
+##Base de Datos
 
 Se implementó **MySQL** en una instancia EC2 ubicada en la subred privada.
 
@@ -93,7 +92,7 @@ Se verificó la información mediante:
 SELECT * FROM Empleados;
 ```
 ![MySQL - Empleados](img/05-mysql-empleados.jpg)
-## 🧪 Pruebas
+##Pruebas
 
 Se realizaron pruebas de:
 
@@ -105,7 +104,7 @@ Se realizaron pruebas de:
 - Comunicación Web → Base de Datos.
 - Acceso restringido mediante Security Groups.
 
-## 🛠️ Tecnologías
+##Tecnologías
 
 - AWS
 - Amazon VPC
@@ -118,7 +117,7 @@ Se realizaron pruebas de:
 - GitHub
 - Linux
 
-## 📚 Aprendizajes
+##Aprendizajes
 
 Durante el laboratorio se trabajó sobre conceptos fundamentales de infraestructura Cloud:
 
