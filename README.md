@@ -3,15 +3,15 @@
 Proyecto práctico de infraestructura y operaciones cloud implementado en AWS.
 ## 📑 Índice
 
-- [Objetivo](#objetivo)
-- [Arquitectura](#arquitectura)
-- [Infraestructura](#infraestructura)
-- [Seguridad](#seguridad)
-- [Servidor Web](#servidor-web)
-- [Base de Datos](#base-de-datos)
-- [Pruebas](#pruebas)
-- [Tecnologías](#tecnologías)
-- [Aprendizajes](#aprendizajes)
+- [Objetivo](#Objetivo)
+- [Arquitectura](#Arquitectura)
+- [Infraestructura](#Infraestructura)
+- [Seguridad](#Seguridad)
+- [Servidor Web](#Servidor-web)
+- [Base de Datos](#Base-de-datos)
+- [Pruebas](#Pruebas)
+- [Tecnologías](#Tecnologías)
+- [Aprendizajes](#Aprendizajes)
 
 ##Objetivo
 
