@@ -3,7 +3,7 @@
 Proyecto práctico de infraestructura y operaciones cloud implementado en AWS.
 ## 📑 Índice
 
-- [Objetivo](#Objetivo)
+- [Objetivo](https://github.com/LiizAraa/cloud-ready-ops#objetivo)
 - [Arquitectura](#Arquitectura)
 - [Infraestructura](#Infraestructura)
 - [Seguridad](#Seguridad)
@@ -13,13 +13,13 @@ Proyecto práctico de infraestructura y operaciones cloud implementado en AWS.
 - [Tecnologías](#Tecnologías)
 - [Aprendizajes](#Aprendizajes)
 
-##Objetivo
+## Objetivo
 
 Diseñar e implementar una infraestructura básica en AWS aplicando conceptos de redes, seguridad, servidores y bases de datos.
 
 El proyecto implementa una arquitectura segmentada mediante una VPC con una subred pública para el servidor web y una subred privada para la base de datos.
 
-##Arquitectura
+## Arquitectura
 
 La infraestructura está compuesta por:
 
@@ -36,7 +36,7 @@ La infraestructura está compuesta por:
 
 ![Arquitectura AWS](<LABORATORIO MINDHUB.drawio.png>)
 
-##Infraestructura
+## Infraestructura
 
 ### Subred pública
 
@@ -48,7 +48,7 @@ La instancia de Base de Datos se encuentra en la subred privada y no posee IP p�
 
 La comunicación entre ambas instancias se realiza mediante la red privada de la VPC.
 
-##Seguridad
+## Seguridad
 
 Se utilizaron Security Groups como firewall virtual.
 
@@ -60,7 +60,7 @@ Se utilizaron Security Groups como firewall virtual.
 
 La base de datos no se expone directamente a Internet. El acceso al puerto 3306 está restringido al Security Group del servidor Web.
 
-##Servidor Web
+## Servidor Web
 
 Se implementó un servidor Web mediante **Nginx** sobre Ubuntu Server.
 
@@ -74,7 +74,7 @@ curl http://localhost
 También se verificó el acceso externo mediante HTTP utilizando la IP pública de la instancia.
 ![Prueba HTTP](img/03-web-nginx.jpg)
 
-##Base de Datos
+## Base de Datos
 
 Se implementó **MySQL** en una instancia EC2 ubicada en la subred privada.
 
@@ -94,7 +94,7 @@ SELECT * FROM Empleados;
 ```
 ![MySQL - Empleados](img/05-mysql-empleados.jpg)
 
-##Pruebas
+## Pruebas
 
 Se realizaron pruebas de:
 
@@ -106,7 +106,7 @@ Se realizaron pruebas de:
 - Comunicación Web → Base de Datos.
 - Acceso restringido mediante Security Groups.
 
-##Tecnologías
+## Tecnologías
 
 - AWS
 - Amazon VPC
@@ -119,7 +119,7 @@ Se realizaron pruebas de:
 - GitHub
 - Linux
 
-##Aprendizajes
+## Aprendizajes
 
 Durante el laboratorio se trabajó sobre conceptos fundamentales de infraestructura Cloud:
 
