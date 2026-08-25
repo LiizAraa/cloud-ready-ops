@@ -4,15 +4,15 @@ Proyecto práctico de infraestructura y operaciones cloud implementado en AWS.
 ## 📑 Índice
 
 - [Objetivo](https://github.com/LiizAraa/cloud-ready-ops#objetivo)
-- [Arquitectura](#Arquitectura)
-- [Infraestructura](#Infraestructura)
-- [Seguridad](#Seguridad)
-- [Servidor Web](#Servidor-web)
-- [Base de Datos](#Base-de-datos)
-- [Pruebas](#Pruebas)
-- [Tecnologías](#Tecnologías)
-- [Aprendizajes](#Aprendizajes)
-
+- [Arquitectura](https://github.com/LiizAraa/cloud-ready-ops#arquitectura)
+- [Infraestructura](https://github.com/LiizAraa/cloud-ready-ops#infraestructura)
+- [Seguridad](https://github.com/LiizAraa/cloud-ready-ops#seguridad)
+- [Servidor Web](https://github.com/LiizAraa/cloud-ready-ops#servidor-web)
+- [Base de Datos](https://github.com/LiizAraa/cloud-ready-ops#base-de-datos)
+- [Pruebas](https://github.com/LiizAraa/cloud-ready-ops#pruebas)
+- [Tecnologías](https://github.com/LiizAraa/cloud-ready-ops#tecnologías)
+- [Aprendizajes](https://github.com/LiizAraa/cloud-ready-ops#aprendizajes)
+  
 ## Objetivo
 
 Diseñar e implementar una infraestructura básica en AWS aplicando conceptos de redes, seguridad, servidores y bases de datos.
